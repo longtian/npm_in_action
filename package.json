@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "util/init_config.js"
+    "postinstall": "node util/init_config.js"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,13 @@
 /**
  * Created by yan on 15-6-15.
  */
-console.log('init');
+var fs = require('fs');
+var path = require('path');
+
+var defaultConfigFilePath = path.join(__dirname, "..", "lib", "config.default.js");
+var configFilePath = path.join(process.cwd(), 'config.js');
+
+
+console.log(defaultConfigFilePath);
+console.log(configFilePath);
+
