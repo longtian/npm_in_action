@@ -7,7 +7,7 @@ var path = require('path');
 var defaultConfigFilePath = path.join(__dirname, "..", "lib", "config.default.js");
 var configFilePath = path.join(process.cwd(), 'config.js');
 
-
+console.dir(process.env);
 console.log(defaultConfigFilePath);
 console.log(configFilePath);
 
